@@ -3,9 +3,19 @@
 Gauntlet is [MicroZig](https://github.com/ZigEmbeddedGroup/microzig)'s
 hardware-in-loop (HIL) testing system.
 
-MicroZig gives users interfaces to program hardware using Zig. Up until now
-For the vast
-majority of the project engineers have programmed
+MicroZig gives users interfaces to program embedded hardware using Zig.
+Contributors have to test manually, and both bugs and regressions make it into
+the codebase regularly.
+
+One may assume that software emulators would be the next logical step, they're
+deterministic and can be run anywhere. This is still a lot of work, either
+requires building our own simulators, or depending on others, and it doesn't
+fully answer the question, does it actually work on hardware?
+
+With this more ambitious project we put in more work and resources than the
+simulator path, but we can truely answer the question of whether something works
+on real hardware. The other thing this system will give us is the ability to
+test Zig compiler codegen for embedded targets.
 
 ## Architecture
 
@@ -23,11 +33,10 @@ There are three types of components in the system:
 - A backplane which houses the bus. All the boards plug into it.
 
 The power plug for this system will be USB-C as we have members in different
-contents with different plugs. We will make use of the standard USB-PD range,
-which can deliver 100W of power. This should meet all possible requirements and
-anything going beyond that means
+countries with different plugs. We will make use of the standard USB-PD range,
+which can deliver 100W of power.
 
-Only one board is active at a time.
+Only one DUT board is active at a time.
 
 ## Security Model
 
