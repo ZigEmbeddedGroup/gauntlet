@@ -1,0 +1,528 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "81c943ab-ed2d-43fa-8482-39f1865c0a37")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 102.87 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12020e52-b0e7-403e-81e6-e8cc03bf9929")
+	)
+	(bus
+		(pts
+			(xy 73.66 77.47) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ddacd5-bc78-4d76-b568-4a6d854bd84a")
+	)
+	(bus
+		(pts
+			(xy 102.87 55.88) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bd7969-bf4e-45ce-9b0a-c8adb9605781")
+	)
+	(bus
+		(pts
+			(xy 102.87 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229c8e08-4971-4635-a7d3-96fa229986a5")
+	)
+	(bus
+		(pts
+			(xy 39.37 45.72) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ea7e8f-d0af-45ff-a1ea-073617059bf8")
+	)
+	(bus
+		(pts
+			(xy 102.87 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cd2ace-43be-42c1-869d-bb856b139314")
+	)
+	(bus
+		(pts
+			(xy 73.66 53.34) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3ace1f-bd0a-44e5-9c7c-f39bbc567d59")
+	)
+	(bus
+		(pts
+			(xy 62.23 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cda11f1-8d8e-4174-914e-2111b1ce86d9")
+	)
+	(bus
+		(pts
+			(xy 102.87 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997f48f2-328a-4926-891c-c9bbe06236d2")
+	)
+	(bus
+		(pts
+			(xy 102.87 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee5461a-c702-4c60-a64e-453af830a9d7")
+	)
+	(bus
+		(pts
+			(xy 102.87 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea5c79a-859f-4292-81b1-c43f6cde41a6")
+	)
+	(bus
+		(pts
+			(xy 102.87 63.5) (xy 107.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef04ec2-cd5a-4e54-9fb3-00e31068f982")
+	)
+	(bus
+		(pts
+			(xy 62.23 53.34) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43114ae-2612-4598-9e52-2b08915e3e31")
+	)
+	(hierarchical_label "USB4{USB}"
+		(shape bidirectional)
+		(at 107.95 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1496f0fa-62a3-4d91-be50-ca3cdba6fe88")
+	)
+	(hierarchical_label "USB6{USB}"
+		(shape bidirectional)
+		(at 107.95 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20def248-d21e-4209-91a7-bc9c55727cfa")
+	)
+	(hierarchical_label "MAIN{USB}"
+		(shape bidirectional)
+		(at 39.37 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aae8926-2fc2-4163-971e-3a2de65d21fa")
+	)
+	(hierarchical_label "USB0{USB}"
+		(shape bidirectional)
+		(at 107.95 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d813079-eee4-4ecd-a731-ca40fc7deade")
+	)
+	(hierarchical_label "USB5{USB}"
+		(shape bidirectional)
+		(at 107.95 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fe0ab4d-989c-4144-9512-02f5a1feec8a")
+	)
+	(hierarchical_label "USB2{USB}"
+		(shape bidirectional)
+		(at 107.95 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6879ceb0-6e3c-41f0-8024-1ade69d6fb22")
+	)
+	(hierarchical_label "USB7{USB}"
+		(shape bidirectional)
+		(at 107.95 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d00c784d-2e96-45a6-a0a9-c726b15b2522")
+	)
+	(hierarchical_label "USB1{USB}"
+		(shape bidirectional)
+		(at 107.95 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5fcdf96-774d-47bd-b6d5-3ffcf11ce795")
+	)
+	(hierarchical_label "USB3{USB}"
+		(shape bidirectional)
+		(at 107.95 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dca8a91c-2a74-40a5-9cd0-59b4950e5464")
+	)
+	(sheet
+		(at 86.36 74.93)
+		(size 16.51 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "025ece8f-6f38-47c4-857f-8599e4d5c891")
+		(property "Sheetname" "USB Hub2"
+			(at 86.36 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 86.36 92.6596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOWN0{USB}" bidirectional
+			(at 102.87 81.28 0)
+			(uuid "5ab9cd56-fb4e-49b1-8524-d8c7e08b3292")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN1{USB}" bidirectional
+			(at 102.87 83.82 0)
+			(uuid "9b4ed0d5-2f2e-4f3e-9530-80c15b32d637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN2{USB}" bidirectional
+			(at 102.87 86.36 0)
+			(uuid "27ed69cc-da92-4d77-931d-23907985c054")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN3{USB}" bidirectional
+			(at 102.87 88.9 0)
+			(uuid "5773dfdd-7086-4ed1-ae3b-476c3617d5c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UP{USB}" bidirectional
+			(at 86.36 77.47 180)
+			(uuid "544cfee0-fabc-4b4e-971a-cc058e134fe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "backplane_v1"
+				(path "/280d4475-fcf2-4ff0-81dd-ced11274358d/67bb3b31-19a1-42fd-9fe8-09bacf5350f1"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 43.18)
+		(size 16.51 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "32eb5580-f9aa-4b23-8f8d-c8f2057a650c")
+		(property "Sheetname" "USB Hub"
+			(at 45.72 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 45.72 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOWN0{USB}" bidirectional
+			(at 62.23 50.8 0)
+			(uuid "4bd78681-fc9e-439f-b038-99fdfcc20fea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN1{USB}" bidirectional
+			(at 62.23 53.34 0)
+			(uuid "f3b98cc5-bd88-48ec-919a-bf6e31056906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN2{USB}" bidirectional
+			(at 62.23 55.88 0)
+			(uuid "5e8567b6-6af6-4aa6-8625-c90c8ba36a79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN3{USB}" bidirectional
+			(at 62.23 58.42 0)
+			(uuid "dd410bc3-a526-4891-957e-30f8d9d1578e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UP{USB}" bidirectional
+			(at 45.72 45.72 180)
+			(uuid "0695cff7-79a8-4d7d-8363-01f9a56798e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "backplane_v1"
+				(path "/280d4475-fcf2-4ff0-81dd-ced11274358d/67bb3b31-19a1-42fd-9fe8-09bacf5350f1"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 48.26)
+		(size 16.51 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57b9b85f-1d20-4e97-b91c-4675db86ebea")
+		(property "Sheetname" "USB Hub1"
+			(at 86.36 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 86.36 66.6246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOWN0{USB}" bidirectional
+			(at 102.87 55.88 0)
+			(uuid "b56dcf4b-77ce-47b4-b4ff-eb7240d00667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN1{USB}" bidirectional
+			(at 102.87 58.42 0)
+			(uuid "66043109-fd15-4005-8afc-eaccce66b1b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN2{USB}" bidirectional
+			(at 102.87 60.96 0)
+			(uuid "b7ff603a-0321-447a-99bf-c3d158ee26cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOWN3{USB}" bidirectional
+			(at 102.87 63.5 0)
+			(uuid "721a8400-cab3-48c7-affe-d51e19b48a24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UP{USB}" bidirectional
+			(at 86.36 50.8 180)
+			(uuid "a110d85b-1adc-4199-ab21-2cf79500fa09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "backplane_v1"
+				(path "/280d4475-fcf2-4ff0-81dd-ced11274358d/67bb3b31-19a1-42fd-9fe8-09bacf5350f1"
+					(page "14")
+				)
+			)
+		)
+	)
+)
